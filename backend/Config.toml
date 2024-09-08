@@ -1,0 +1,7 @@
+[paths]
+admin_keypair = "admin-keypair.json"
+registration_keypair = "registration-keypair.json"
+user_keypair = "user-keypair.json"
+
+[network]
+rpc_url = "https://api.devnet.solana.com"

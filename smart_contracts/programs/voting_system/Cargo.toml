@@ -1,0 +1,22 @@
+[package]
+name = "voting_system"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.30.0"  # Check for the latest version
+solana-program = "2.0.7"
+serde = { version = "1.0.207", features = ["derive"] }  # Check for the latest version
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "voting_system"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]

@@ -1,0 +1,21 @@
+[package]
+name = "voter_count"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.30.0"  # Check for the latest version
+solana-program = "1.18.12"  # Check for the latest version
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "voter_count"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]

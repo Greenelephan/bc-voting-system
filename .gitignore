@@ -1,0 +1,12 @@
+/backend/debug/
+/backend/target/
+/backend/*-keypair.json
+/backend/test-ledger
+**/Cargo.lock
+*.log
+.idea/
+*.DS_Store
+/node_modules/
+package-lock.json
+package.json
+test-ledger/
