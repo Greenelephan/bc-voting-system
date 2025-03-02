@@ -4,7 +4,7 @@ use anchor_client::solana_sdk::commitment_config::CommitmentConfig;
 use anchor_client::solana_sdk::signature::{read_keypair_file, Keypair};
 
 pub fn create_anchor_client() -> Client<Arc<Keypair>> {
-    let payer = read_keypair_file(&*shellexpand::tilde("~/.config/solana/new_id.json"))
+    let payer = read_keypair_file(&*shellexpand::tilde("~/.config/solana/id.json"))
         .expect("Failed to read keypair file");
     let url = Cluster::Custom(
         "http://localhost:8899".to_string(),

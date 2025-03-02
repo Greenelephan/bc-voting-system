@@ -1,8 +1,8 @@
 use salvo::{handler, Request, Response};
 use salvo::http::StatusCode;
 use salvo::prelude::Json;
-use crate::models::models::{LoginRequest, LoginResponse};
 use crate::auth::jwt::create_jwt;
+use crate::auth::models::{LoginRequest, LoginResponse};
 
 #[handler]
 pub async fn login(req: &mut Request, res: &mut Response) {

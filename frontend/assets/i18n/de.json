@@ -1,0 +1,187 @@
+
+{
+  "page_title": "Wahlverwaltung",
+  "common": {
+    "help": "Hilfe",
+    "back": "Zurück",
+    "next": "Weiter",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "submit": "Absenden",
+    "send": "Senden",
+    "close": "Schließen",
+    "yes": "Ja",
+    "no": "Nein",
+    "ok": "OK",
+    "error": "Fehler",
+    "warning": "Warnung",
+    "info": "Information",
+    "confirm": "Bestätigen",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "success": "Erfolg",
+    "loading": "Ladevorgang",
+    "loading_data": "Daten werden geladen...",
+    "loading_page": "Seite wird geladen...",
+    "loading_election": "Wahl wird geladen..."
+  },
+  "error": {
+    "failed_to_load_data": "Fehler beim Laden der Daten.",
+    "failed_to_load_page": "Fehler beim Laden der Seite.",
+    "failed_to_load_election": "Fehler beim Laden der Wahl.",
+    "failed_to_load_results": "Fehler beim Laden der Wahlergebnisse.",
+    "failed_to_load_receipt": "Fehler beim Laden der Wahlbestätigung.",
+    "failed_to_register": "Fehler bei der Registrierung.",
+    "failed_to_login": "Fehler bei der Anmeldung.",
+    "failed_to_create_election": "Fehler beim Erstellen der Wahl.",
+    "failed_to_close_election": "Fehler beim Beenden der Wahl.",
+    "failed_to_finalize_election": "Fehler beim Abschließen der Wahl.",
+    "failed_to_load_votings": "Fehler beim Laden der Abstimmungen.",
+    "failed_to_load_candidates": "Fehler beim Laden der Kandidaten.",
+    "failed_to_load_voterid": "Fehler beim Laden der Wähler-ID.",
+    "failed_to_complete_election": "Fehler beim Abschließen der Wahl.",
+    "failed_to_fetch_status": "Fehler beim Abrufen der Wahlbestätigungs-ID.",
+    "failed_to_load_election_id": "Fehler beim Laden der Wahl-ID.",
+    "no_votings": "Keine Abstimmungen vorhanden.",
+    "no_candidates": "Keine Kandidaten vorhanden.",
+    "no_voterid": "Keine Wähler-ID vorhanden.",
+    "no_password": "Kein Passwort vorhanden.",
+    "no_election": "Keine Wahl vorhanden.",
+    "no_results": "Keine Wahlergebnisse vorhanden.",
+    "invalid_voterid": "Ungültige Wähler-ID.",
+    "invalid_password": "Ungültiges Passwort.",
+    "invalid_receipt_id": "Ungültige Wahlbestätigungs-ID."
+  },
+  "menu": {
+    "title": "Menü",
+    "item_home": "Startseite",
+    "item_private_election": "Private Wahl",
+    "item_public_election": "Öffentliche Wahl",
+    "item_help": "Hilfe",
+    "item_help_content": "Diese Seite ist noch nicht verfügbar.",
+    "item_logout": "Abmelden",
+    "item_close_election": "Wahlen beenden",
+    "item_results": "Wahlergebnisse",
+    "item_election": "Wahl erstellen"
+  },
+  "help": {
+    "title": "Hilfe",
+    "description": "Hier finden Sie Informationen zur Wahlverwaltung und deren Funktionen.",
+    "tooltip_help_info": "Hilfeseite der Wahlverwaltung",
+    "text_help": "Hier finden Sie Informationen zur Wahlverwaltung und deren Funktionen. Klicken Sie auf die Links, um mehr zu erfahren.",
+    "button_help_home": "Startseite",
+    "button_help_registration": "Registrierung",
+    "button_help_login": "Anmeldung"
+  },
+  "home": {
+    "title": "Startseite",
+    "description": "Willkommen bei der Wahlverwaltung. Hier können Sie sich für Wahlen registrieren oder eine Wahl erstellen.",
+    "tooltip_home_info": "Startseite der Wahlverwaltung",
+    "button_private_election": "Private Wahl",
+    "button_tooltip_private_election": "Hier gelangen Sie zur Seite Private Wahl. Sie können sich hier mit einem Wahlcode anmelden oder eine private Wahl erstellen.",
+    "button_public_election": "Öffentliche Wahl",
+    "button_tooltip_public_election": "Hier gelangen Sie zur Registrierungsseite für Öffentliche Wahlen. Sie können sich hier für eine Öffentliche Wahl registrieren."
+  },
+  "registration": {
+    "title": "Registrierung",
+    "button_register": "Registrieren",
+    "tooltip_register_info": "Informationen zur Registrierung",
+    "text_register": "Hier können Sie sich für eine Wahl registrieren. Bitte geben Sie Ihre Daten ein und klicken Sie auf Registrieren.",
+    "text_to_login_1": "Sie haben bereits einen Account? Dann können Sie sich ",
+    "text_to_login_2": "hier",
+    "text_to_login_3": " anmelden.",
+    "label_voterid": "Wähler-ID",
+    "tooltip_voterid": "Die Wähler-ID ist ein eindeutiger Code, der Ihnen von der Wahlleitung per Post zugestellt wird.",
+    "label_password": "Passwort",
+    "label_confirm_password": "Passwort bestätigen",
+    "tooltip_password": "Das Passwort muss mindestens 8 Zeichen lang sein und mindestens einen Großbuchstaben, einen Kleinbuchstaben, eine Zahl und ein Sonderzeichen enthalten.",
+    "error_password_mismatch": "Die Passwörter stimmen nicht überein.",
+    "error_registration_failed": "Registrierung fehlgeschlagen."
+  },
+  "login": {
+    "title": "Anmeldung",
+    "button_login": "Anmelden",
+    "tooltip_login_info": "Informationen zur Anmeldung",
+    "text_login": "Hier können Sie sich für eine Wahl anmelden. Bitte geben Sie Ihre Daten ein und klicken Sie auf Anmelden.",
+    "label_username": "Wähler-ID",
+    "label_password": "Passwort"
+  },
+  "public_election_home": {
+    "title": "Öffentliche Wahl",
+    "description": "Willkommen zur Wahl! Ihre Stimme zählt!",
+    "tooltip_public_election_info": "Teilnahme an einer Öffentlichen Wahl",
+    "vote_button": "Wahl starten",
+    "vote_tooltip": "Klicken Sie hier, um an der Wahl teilzunehmen."
+  },
+  "public_election_1": {
+    "title": "Öffentliche Wahl",
+    "tooltip_public_election_info": "Die Erstwahl",
+    "description": "Willkommen zur Erstwahl!"
+  },
+  "public_election_2": {
+    "title": "Öffentliche Wahl",
+    "tooltip_public_election_info": "Die Zweitwahl",
+    "description": "Willkommen zur Zweitwahl!"
+  },
+  "public_election_results": {
+    "title": "Wahlergebnisse",
+    "description": "Hier finden Sie die Wahlergebnisse.",
+    "tooltip_results_info": "Wahlergebnisse",
+    "error": "Fehler beim Laden der Wahlergebnisse.",
+    "no_results": "Keine Wahlergebnisse vorhanden.",
+    "refresh": "Aktualisieren"
+  },
+  "public_election_preview": {
+    "title": "Überprüfung",
+    "description": "Hier können Sie Ihre Eingaben überprüfen.",
+    "tooltip_preview_info": "Überprüfung der Eingaben",
+    "button_preview_election": "Wahl abschließen",
+    "first_election": "Erstwahl",
+    "second_election": "Zweitwahl",
+    "candidate": "Kandidat"
+  },
+  "home_admin": {
+    "title": "Startseite",
+    "description": "Willkommen bei der Wahlverwaltung. Sie sind als Admin angemeldet.",
+    "tooltip": "Startseite der Wahlverwaltung"
+  },
+  "new_election": {
+    "title": "Wahl erstellen",
+    "description": "Hier können Sie eine neue Wahl erstellen.",
+    "tooltip_new_election_info": "Wahl erstellen",
+    "text_new_election": "Hier können Sie eine neue Wahl erstellen. Klicken Sie auf die Links, um mehr zu erfahren.",
+    "button_new_election_home": "Startseite",
+    "button_new_election_results": "Wahlergebnisse",
+    "success_message": "Wahl wurde erfolgreich erstellt.",
+    "error": "Fehler beim Erstellen der Wahl.",
+    "label_title": "Neue Wahl",
+    "label_candidate": "Kandidat",
+    "button_add_candidate": "Kandidat hinzufügen",
+    "button_submit": "Wahl erstellen",
+    "error_checking_votings": "Fehler beim Überprüfen der Abstimmungen.",
+    "close_open_votings_first": "Bitte schließen Sie zuerst alle offenen Wahlen."
+  },
+  "close_election": {
+    "title": "Wahlen beenden",
+    "description": "Hier können Sie Wahlen beenden.",
+    "tooltip_close_election_info": "Wahlen beenden",
+    "success_message": "Wahl wurde erfolgreich beendet.",
+    "error": "Fehler beim Beenden der Wahl.",
+    "no_open_votings": "Keine offenen Wahlen vorhanden.",
+    "confirm_finalize": "Möchten Sie die Wahl wirklich beenden?",
+    "finalize_button": "Wahlen beenden"
+  },
+  "receipt": {
+    "title": "Wahlbestätigung",
+    "description": "Sie haben bereits gewählt. Vielen Dank für Ihre Stimme. Hier finden Sie Ihre Wahlbestätigung.",
+    "tooltip_receipt_info": "Wahlbestätigung",
+    "error": "Fehler beim Laden der Wahlbestätigung.",
+    "no_receipt": "Keine Wahlbestätigung vorhanden.",
+    "dialog_title": "Ihre Wahlbestätigungs-ID",
+    "receipt_id": "Bitte speichern Sie Ihre Wahlbestätigungs-ID: ",
+    "enter_receipt_id": "Geben Sie Ihre Wahlbestätigungs-ID ein:",
+    "first_election": "Erstwahl",
+    "second_election": "Zweitwahl",
+    "status": "Status"
+  }
+}
